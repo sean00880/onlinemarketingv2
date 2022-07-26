@@ -1,0 +1,143 @@
+.coursesCard {
+  padding: 50px 0;
+}
+
+body{ 
+  background-color: #ebebeb;
+}
+.coursesCard .items {
+  background-color: rgb(26, 26, 26);
+  padding: 30px;
+  text-align: center;
+  border: 5px solid rgb(34, 34, 34);
+  border-radius: 40px 4px 11px 10px;
+}
+.coursesCard .img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #e23e29;
+  padding: 15px;
+}
+.coursesCard img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.coursesCard .text {
+  margin-left: 15px;
+  text-align: left;
+}
+.coursesCard .text h1 {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 45px;
+  color: rgb(251, 251, 251);
+}
+.coursesCard .rate {
+  margin: 20px 0;
+  color: #cab019;
+  
+}
+.coursesCard .rate i {
+  font-size: 13px;
+  margin-right: 5px;
+
+}
+.coursesCard .details .dimg img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.coursesCard .details .box {
+  display: flex;
+  align-items: center;
+  color: rgb(180, 172, 169);
+}
+.coursesCard .details span {
+  color: #dd867e;
+  font-weight: 500;
+  font-size: 18px;
+}
+.coursesCard .price {
+  margin: 30px 0;
+  background-color: #f8f8f8;
+  padding: 10px;
+  border-radius: 30px 4px 48px 12px;
+}
+.coursesCard h3 {
+  font-weight: 500;
+  color: #090909;
+}
+/*-------------online---------*/
+.online {
+  text-align: center;
+  background-color: grey;
+  padding-bottom: 20px;
+}
+.online .box {
+  box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
+  background-color: #fff;
+  padding: 30px 20px;
+  transition: 0.5s;
+  border-radius: 10px 30px;
+  border: 1px solid black;
+}
+.online .img {
+  width: 80px;
+  height: 80px;
+  margin: auto;
+  position: relative;
+}
+.online img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.online h1 {
+  font-weight: 500;
+  font-size: 20px;
+  margin: 20px 0;
+  line-height: 30px;
+}
+.online span {
+  padding: 5px 20px;
+  font-weight: 500;
+  font-size: 15px;
+  color: #383838;
+  border-radius: 5px;
+}
+.online .box .show {
+  opacity: 0;
+}
+.online .box:hover {
+  background-color: #151515;
+  border-radius: 10px 50px;
+  cursor: pointer;
+  border: 1px solid rgb(251, 250, 250);
+}
+
+.online .box:hover span {
+  background-color: #d4d4d4;
+  color: red;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.online .box:hover .show {
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.online .box:hover h1 {
+  color: rgb(238, 228, 228);
+}
+/*-------------online---------*/
+@media screen and (max-width: 768px) {
+
+.online h1 {
+  line-height: 67px;
+}
+}

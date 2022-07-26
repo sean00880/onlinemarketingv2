@@ -1,0 +1,173 @@
+.head{
+    padding: 20px 0;
+    color: rgb(237, 234, 234);
+    background-color: rgb(231, 231, 231);
+    line-height: 50px;
+}
+
+.head h1{
+    color: rgb(220, 11, 11);
+}
+.head span{
+    color: rgb(59, 59, 59);
+}
+.logo h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.head .icon {
+    margin-left: 10px;
+}
+
+/*---header---*/
+header{
+    background-color: rgba(255,255,255,0.2);
+    margin: 0 30px;
+    position: relative;
+}
+
+header ul{
+    padding: 30px 20px;
+    z-index: 2;
+}
+
+header li {
+    margin-right: 30px;
+    margin-left: 40px;
+    line-height: 20px;
+    top: 10px;
+    position:relative;
+}
+
+header ul li a {
+    color: #fff;
+    font-weight: 500;
+    transition: 0.5s;
+    font-size: 22px;
+}
+
+header ul li a:hover{
+    color: rgb(192, 53, 53);
+}
+
+.start {
+    background: rgb(186, 54, 54);
+    padding: 30px 70px;
+    color: rgb(33, 32, 32);
+    /*clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);*/
+    clip-path: polygon(13% 7%, 100% 5%, 100% 100%, -18% 86%)
+}
+
+
+
+.toggle{
+    display: block;
+    background: none; 
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    right: 100px;
+    top: 0px;
+} 
+
+ul {
+    text-align: center;
+    width: 100%;
+}
+
+@media screen and (max-width: 1300px) {
+    header .flexSB {
+        width: 80%;
+    }
+
+    header li {
+        margin-left: 30px;
+    }
+    .toggle {
+        right: 5%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .start{
+       clip-path: 10% 10% 10%; 
+       opacity: 1;
+       text-align: center;
+       margin: 10px 0;
+       top:20px;
+       position: relative;
+       z-index:1;
+    }
+    header{ 
+        margin: 0 0; 
+        background-color: rgb(19, 18, 18);
+        position: relative;
+    }
+    header ul .flexSB {
+        display: none;
+    }
+    header ul li{
+        margin-bottom: 20px;
+        z-index: 2;
+        font-size: 16px;
+        position: relative;
+        text-align: center;
+        justify-content: center;
+        justify-self: center;
+    }
+    
+    .toggle{
+        display: none;
+        background: none; 
+        color: #fff;
+        font-size: 30px;
+        position: absolute;
+        right: 0px;
+        top: 20px;
+        z-index: 3;
+    } 
+    
+    .mobile-nav{
+        position: absolute;
+        top: 7vh;
+        left: 0;
+        width: 50vh;
+        height: 80vh;
+        background-color: rgb(16, 15, 15);
+        border: 2px inset black; 
+    }
+    
+    span {
+        font-size: 36px;
+    }
+    
+    .button {
+        font-size: 34px;
+    }
+
+    header .flexSB {
+        width: 60%;
+    }
+
+    header li {
+        margin-left: 5px;
+        margin-right: 25%;
+    }
+
+    
+}
+
+@media screen and (max-width: 430px) {
+    header li{
+        margin-left: 5px;
+        margin-right: 10px;
+    }
+
+    header .flexSB{
+        width: 60%;
+    }
+}
+
+
+

@@ -82,7 +82,7 @@ button:hover {
 }
 #heading h3 {
   font-weight: 600;
-  letter-spacing: 1px;
+  letter-spacing: 3px;
   color: #b43232;
   text-transform: uppercase;
 }
@@ -91,9 +91,15 @@ button:hover {
   margin: 20px 0;
   text-transform: capitalize;
 }
+
 p {
-  line-height: 34px;
+  line-height: 35px;
   font-size: 21px;
+  padding: 20px 10px;
+}
+
+h1 {
+  font-size: 33px;
 }
 
 .back {
@@ -121,7 +127,7 @@ p {
   text-transform: uppercase;
 }
 .margin {
-  margin-top: 40.3%;
+  margin-top:55%;
 }
 .grid {
   display: grid;
@@ -133,7 +139,7 @@ p {
 }
 .grid2 {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 30px;
 }
 .outline-btn {
@@ -149,7 +155,7 @@ p {
 }
 .grid3 {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
 }
 
@@ -157,6 +163,29 @@ p {
   box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
   background-color: #fff;
 }
+
+@media screen and (max-width: 1300px) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+  }
+  .grid2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+  }
+  .grid3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+  }
+  .margin {
+    margin-top:85%;
+  }
+}
+
+
 @media screen and (max-width: 768px) {
   .grid2,
   .grid3,

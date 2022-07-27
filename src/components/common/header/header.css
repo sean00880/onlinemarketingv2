@@ -4,45 +4,63 @@
   color: #fff;
 }
 .logo h1 {
-  font-size: 35px;
+  font-size: 55px;
   font-weight: 900;
 }
 .head .icon {
   margin-left: 10px;
 }
+
 /*--------head------------*/
 
 /*--------header------------*/
 header {
   background-color: rgba(0, 0, 0, 0.9);
-  border: 1px solid white;
+  border: 1px solid #ffffff;
   margin: 0 30px;
+  border-radius: 10%;
 }
 header .nav {
   display: flex !important;
 }
+
+
 header li {
   margin-right: 40px;
 }
 header ul {
-  padding: 30px 20px;
+  padding: 30px 30px;
 }
 header ul li a {
   color: #fff;
   font-weight: 500;
   transition: 0.5s;
+  font-size: 21px;
 }
 header ul li a:hover {
   color: #b43232;
 }
 .start {
-  background-color: #b43232;
-  padding: 30px 70px;
-  color: #fff;
-  clip-path: polygon(13% 7%, 100% 5%, 100% 100%, -18% 86%);
+  background-image: url("/images/bg.jpg");
+  background-size:contain ;
+  padding: 30px 30px;
+  color: transparent;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.344), 1px 1px 1px rgba(0, 0, 0, 0.244);
+  clip-path: polygon(9% 7%, 99% 11%, 99% 89%, -14% 88%);
+  -webkit-text-stroke: 0.3px  rgba(0, 0, 0, 0.251);
+  font-size: 30px;
+  background-clip: text;
+  right: 50px;
+    position: relative;
 }
+
 .toggle {
   display: none;
+}
+
+li:hover {
+  text-shadow: 0 0 2px #ffffff, 0 0 1px #b42c2c;
+  
 }
 /*--------header------------*/
 @media screen and (max-width: 768px) {
@@ -74,6 +92,17 @@ header ul li a:hover {
     top: 7vh;
     left: 0;
     width: 100%;
-    background-color: #b43232;
+    background-color: #131212;
+    padding: 12vh 20px;
+    font-size: 35px;
+    line-height: 50px;
+    margin-top: 20px;
+    border-radius: 0px 0px 8px 70px;
+    border: 1px solid whitesmoke;
+  }
+
+  li:hover {
+    text-shadow: 0 0 3px #c83b3b, 0 0 7px #ebeced;
+    
   }
 }

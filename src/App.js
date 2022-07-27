@@ -1,6 +1,6 @@
 import "./App.css"
 import Header from "./components/common/header/Header"
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
+import { HashRouter as Router, Switch, Route } from "react-router-dom"
 import About from "./components/about/About"
 import CourseHome from "./components/allcourses/CourseHome"
 import Team from "./components/team/Team"
@@ -23,7 +23,7 @@ function App() {
           <Route exact path='/journal' component={Blog} />
           <Route exact path='/contact' component={Contact} />
         </Switch>
-        <Footer />
+      <Footer />
       </Router>
     </>
   )

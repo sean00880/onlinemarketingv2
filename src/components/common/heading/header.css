@@ -137,6 +137,8 @@ ul {
         height: 80vh;
         background-color: rgb(16, 15, 15);
         border: 2px inset black; 
+        width: 89%;
+        margin-left: 20px;
     }
     
     span {

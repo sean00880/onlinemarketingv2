@@ -60,11 +60,11 @@ export const awrapper = [
 export const coursesCard = [
   {
     id: 1,
-    cover: "/images/courses/c1.png",
+    cover: "/onlinemarketingv2/images/courses/c1.png",
     coursesName: "Introduction to Marketing",
     courTeacher: [
       {
-        dcover: "/images/back.webp",
+        dcover: "/onlinemarketingv2/images/back.webp",
         name: "by Matthew Barnes",
         totalTime: "3 topics (7 hrs)",
       },
@@ -74,11 +74,11 @@ export const coursesCard = [
   },
   {
     id: 2,
-    cover: "/images/courses/c2.png",
+    cover: "/onlinemarketingv2/images/courses/c2.png",
     coursesName: "Social Media Algorithm",
     courTeacher: [
       {
-        dcover: "/images/back.webp",
+        dcover: "/onlinemarketingv2/images/back.webp",
         name: "by Matthew Barnes",
         totalTime: "4 topics (2 hrs)",
       },
@@ -88,11 +88,11 @@ export const coursesCard = [
   },
   {
     id: 3,
-    cover: "/images/courses/c3.png",
+    cover: "/onlinemarketingv2/images/courses/c3.png",
     coursesName: "How to Approach Marketing Leads",
     courTeacher: [
       {
-        dcover: "/images/back.webp",
+        dcover: "/onlinemarketingv2/images/back.webp",
         name: "by Matthew Barnes",
         totalTime: "7 topics (21 hrs)",
       },
@@ -102,11 +102,11 @@ export const coursesCard = [
   },
   {
     id: 4,
-    cover: "/images/courses/c4.png",
+    cover: "/onlinemarketingv2/images/courses/c4.png",
     coursesName: "How to Create Hype?",
     courTeacher: [
       {
-        dcover: "/images/back.webp",
+        dcover: "/onlinemarketingv2/images/back.webp",
         name: "by Matthew Barnes",
         totalTime: "3 topics (20 hrs)",
       },
@@ -116,11 +116,11 @@ export const coursesCard = [
   },
   {
     id: 5,
-    cover: "/images/courses/c5.png",
+    cover: "/onlinemarketingv2/images/courses/c5.png",
     coursesName: "Introducing to Programming with ReactJS",
     courTeacher: [
       {
-        dcover: "/images/back.webp",
+        dcover: "/onlinemarketingv2/images/back.webp",
         name: "by Matthew Barnes",
         totalTime: "100 lectures (150 hrs)",
       },
@@ -132,89 +132,89 @@ export const coursesCard = [
 ]
 export const online = [
   {
-    cover: "/images/courses/online/o1.png",
-    hoverCover: "/images/courses/online/o1.1.png",
+    cover: "/onlinemarketingv2/images/courses/online/o1.png",
+    hoverCover: "/onlinemarketingv2/images/courses/online/o1.1.png",
     courseName: "Presentation",
     course: "1 Topic",
   },
 
   {
-    cover: "/images/courses/online/o3.png",
-    hoverCover: "/images/courses/online/o3.1.png",
+    cover: "/onlinemarketingv2/images/courses/online/o3.png",
+    hoverCover: "/onlinemarketingv2/images/courses/online/o3.1.png",
     courseName: "Communication",
     course: "2 Topics",
   },
 
   {
-    cover: "/images/courses/online/o5.png",
-    hoverCover: "/images/courses/online/o5.1.png",
+    cover: "/onlinemarketingv2/images/courses/online/o5.png",
+    hoverCover: "/onlinemarketingv2/images/courses/online/o5.1.png",
     courseName: "Social Media Analysis",
     course: "1 Topic",
   },
 
   {
-    cover: "/images/courses/online/o8.png",
-    hoverCover: "/images/courses/online/o8.1.png",
+    cover: "/onlinemarketingv2/images/courses/online/o8.png",
+    hoverCover: "/onlinemarketingv2/images/courses/online/o8.1.png",
     courseName: "Marketing",
     course: "30 Topics",
   },
   {
-    cover: "/images/courses/online/o9.png",
-    hoverCover: "/images/courses/online/o9.1.png",
+    cover: "/onlinemarketingv2/images/courses/online/o9.png",
+    hoverCover: "/onlinemarketingv2/images/courses/online/o9.1.png",
     courseName: "Digital Design",
     course: "3 Topics",
   },
   {
-    cover: "/images/courses/online/o10.png",
-    hoverCover: "/images/courses/online/o10.1.png",
+    cover: "/onlinemarketingv2/images/courses/online/o10.png",
+    hoverCover: "/onlinemarketingv2/images/courses/online/o10.1.png",
     courseName: "Music & Social Media",
     course: "2 Topics",
   },
   {
-    cover: "/images/courses/online/o12.png",
-    hoverCover: "/images/courses/online/o12.1.png",
+    cover: "/onlinemarketingv2/images/courses/online/o12.png",
+    hoverCover: "/onlinemarketingv2/images/courses/online/o12.1.png",
     courseName: "Global Reach Development",
     course: "17 Topics",
   },
 ]
 export const team = [
   {
-    cover: "/images/team/t1.webp",
+    cover: "/onlinemarketingv2/images/team/t1.webp",
     name: "Thunder",
     work: "NFT Community Manager",
   },
   {
-    cover: "/images/team/t2.webp",
+    cover: "/onlinemarketingv2/images/team/t2.webp",
     name: "Ph.D Phil Hansburger",
     work: "DEVELOPER AND LEAD INSTRUCTOR",
   },
   {
-    cover: "/images/team/t3.webp",
+    cover: "/onlinemarketingv2/images/team/t3.webp",
     name: "Ph.D Kate Poland",
     work: "DEVELOPER AND LEAD INSTRUCTOR",
   },
   {
-    cover: "/images/team/t4.webp",
+    cover: "/onlinemarketingv2/images/team/t4.webp",
     name: "Ph.D Brian Kent",
     work: "DEVELOPER AND LEAD INSTRUCTOR",
   },
   {
-    cover: "/images/team/t5.webp",
+    cover: "/onlinemarketingv2/images/team/t5.webp",
     name: "Ph.D Adrian Molises",
     work: "DEVELOPER AND LEAD INSTRUCTOR",
   },
   {
-    cover: "/images/team/t6.webp",
+    cover: "/onlinemarketingv2/images/team/t6.webp",
     name: "Ph.D Anthony Jenkins",
     work: "DEVELOPER AND LEAD INSTRUCTOR",
   },
   {
-    cover: "/images/team/t7.webp",
+    cover: "/onlinemarketingv2/images/team/t7.webp",
     name: "Ph.D Anna Cullen",
     work: "DEVELOPER AND LEAD INSTRUCTOR",
   },
   {
-    cover: "/images/team/t8.webp",
+    cover: "/onlinemarketingv2/images/team/t8.webp",
     name: "Ph.D Carl Shaw",
     work: "DEVELOPER AND LEAD INSTRUCTOR",
   },
@@ -271,7 +271,7 @@ export const blog = [
     com: "3 COMMENTS ",
     title: "Reignite the Spark: Bring your Business back to Life",
     desc: "Let the motto of your business speak for you so you don't have to.",
-    cover: "/images/blog/b1.webp",
+    cover: "/onlinemarketingv2/images/blog/b1.webp",
   },
   {
     id: 2,
@@ -280,7 +280,7 @@ export const blog = [
     com: "5 COMMENTS ",
     title: "Marketing in 2022. What does it take?",
     desc: "Many people think social media is over-saturated and making money in 2022 is harder than ever. Is that true? Let's dive in.",
-    cover: "/images/blog/b2.webp",
+    cover: "/onlinemarketingv2/images/blog/b2.webp",
   },
   {
     id: 3,
@@ -289,7 +289,7 @@ export const blog = [
     com: "10 COMMENTS ",
     title: "Advanced SEO tips for beginners",
     desc: "10 tips on what you must do as a business owner if you want to captivate your audience's attention.",
-    cover: "/images/blog/b3.webp",
+    cover: "/onlinemarketingv2/images/blog/b3.webp",
   },
   {
     id: 4,
@@ -298,7 +298,7 @@ export const blog = [
     com: "3 COMMENTS ",
     title: "How to drive traffic to your social media with no effort",
     desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-    cover: "/images/blog/b4.webp",
+    cover: "/onlinemarketingv2/images/blog/b4.webp",
   },
   {
     id: 5,
@@ -307,7 +307,7 @@ export const blog = [
     com: "3 COMMENTS ",
     title: "How to create real value from social media promotions",
     desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-    cover: "/images/blog/b5.webp",
+    cover: "/onlinemarketingv2/images/blog/b5.webp",
   },
   {
     id: 6,
@@ -316,7 +316,7 @@ export const blog = [
     com: "12 COMMENTS ",
     title: "Build your Dream Software & Engineering Career",
     desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-    cover: "/images/blog/b6.webp",
+    cover: "/onlinemarketingv2/images/blog/b6.webp",
   },
 ]
 export const testimonal = [
@@ -325,20 +325,20 @@ export const testimonal = [
     name: "JOHN DOE",
     post: "C.E.O. of Duck Deez",
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-    cover: "/images/testo/t1.webp",
+    cover: "/onlinemarketingv2/images/testo/t1.webp",
   },
   {
     id: 2,
     name: "JACK PARKER",
     post: "Backend Engineer at Siemens",
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-    cover: "/images/testo/t2.webp",
+    cover: "/onlinemarketingv2/images/testo/t2.webp",
   },
   {
     id: 3,
     name: "SCOTT HUGHES",
     post: "Dropshipping Expert",
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-    cover: "/images/testo/t3.webp",
+    cover: "/onlinemarketingv2/images/testo/t3.webp",
   },
 ]

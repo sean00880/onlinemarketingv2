@@ -10,7 +10,7 @@ const AboutCard = () => {
       <section className='aboutHome'>
         <div className='container flexSB'>
           <div className='left row'>
-            <img src='/images/about.webp' alt='' />
+            <img src='/onlinemarketingv2/images/about.webp' alt='' />
           </div>
           <div className='right row'>
             <Heading subtitle='BOOST Your Social Media Influence' title='What To Expect:' />

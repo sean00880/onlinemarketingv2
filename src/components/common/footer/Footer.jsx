@@ -82,7 +82,7 @@ const Footer = () => {
               </li>
               <li>
                 <i className='fa fa-paper-plane'></i>
-                theelitereapersanctum@gmail.com
+                matthewbarnes@email.com
               </li>
             </ul>
           </div>

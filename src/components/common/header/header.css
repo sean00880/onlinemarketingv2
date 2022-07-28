@@ -111,8 +111,10 @@ li:hover {
   }
 
   li:hover {
-    text-shadow: 0 0 3px #c83b3b, 0 0 7px #ebeced;
-    
+    text-shadow: 0 0 3px #0eb0eb, 0 0 7px #ebeced;
+    background-image: url('/images/bg.jpg');
+    background-size: cover;
+    background-clip: text;
   }
 
   .start {

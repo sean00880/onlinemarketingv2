@@ -25,6 +25,7 @@ h1 h2 h3 h4 .title{
 }
 .flexSB {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 .icon {
@@ -50,7 +51,7 @@ li {
   list-style-type: none;
 }
 .row {
-  width: 50%;
+  width: 97%;
 }
 button {
   padding: 17px 30px;

@@ -12,6 +12,7 @@
   padding-right: 50px;
   color: #fff;
   display: flex;
+
 }
 .hero #heading h3 {
   color: #fff;
@@ -22,16 +23,58 @@
   padding: 0;
 }
 
+.row {
+  color: rgb(255, 255, 255);
+  background: rgba(0, 0, 0, 0.714);
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 10px 40px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.left {
+  border-radius: 40px;
+}
+
 @media screen and (max-width: 768px) {
-  .margin {
-    height: 70vh;
-  }
+
   .hero {
     background-position: right;
     padding-top: 50%;
-    height: 160vh;
+    height: 140vh;
   }
   .hero .row {
     width: 100%;
+  }
+}
+@media screen and (max-width: 550px) {
+
+  .hero {
+    background-position: right;
+    padding-top: 50%;
+    height: 122vh;
+  }
+  .hero .row {
+    width: 100%;
+  }
+  .margin {
+    margin-top: 120%;
+  }
+
+}
+
+@media screen and (max-width: 380px) {
+
+  .hero {
+    background-position: right;
+    padding-top: 75%;
+    height: 130vh;
+  }
+  .hero .row {
+    width: 100%;
+  }
+  .margin {
+    height: 60vh;
   }
 }

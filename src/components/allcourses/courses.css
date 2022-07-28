@@ -16,7 +16,7 @@ body{
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  background-color: #e23e29;
+  background-color: #0a9a24;
   padding: 15px;
 }
 .coursesCard img {
@@ -56,7 +56,7 @@ body{
   color: rgb(180, 172, 169);
 }
 .coursesCard .details span {
-  color: #dd867e;
+  color: #7dbdf5;
   font-weight: 500;
   font-size: 18px;
 }

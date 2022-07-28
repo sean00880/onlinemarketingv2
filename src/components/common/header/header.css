@@ -50,7 +50,7 @@ header ul li a:hover {
   -webkit-text-stroke: 0.3px  rgba(0, 0, 0, 0.251);
   font-size: 30px;
   background-clip: text;
-  right: 50px;
+  right: 70px;
     position: relative;
 }
 
@@ -59,17 +59,26 @@ header ul li a:hover {
 }
 
 li:hover {
-  text-shadow: 0 0 2px #ffffff, 0 0 1px #b42c2c;
+  text-shadow: 0 0 2px #ffffff, 0 0 1px #1d2e63;
   
 }
 /*--------header------------*/
+
+@media screen and (max-width: 1200px) {
+  .start {
+    display: none;
+  }
+}
+
+
 @media screen and (max-width: 768px) {
   .start {
     clip-path: none;
+    display: block;
   }
   header {
     margin: 0;
-    background-color: #b43232;
+    background-color: #08365e;
     position: relative;
   }
   header ul.flexSB {
@@ -104,5 +113,9 @@ li:hover {
   li:hover {
     text-shadow: 0 0 3px #c83b3b, 0 0 7px #ebeced;
     
+  }
+
+  .start {
+    right: 10px;
   }
 }

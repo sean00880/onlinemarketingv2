@@ -1,7 +1,6 @@
 .head{
     padding: 20px 0;
-    color: rgb(237, 234, 234);
-    background-color: rgb(231, 231, 231);
+
     line-height: 50px;
 }
 
@@ -14,6 +13,8 @@
 .logo h1{
     font-size: 40px;
     font-weight: 900;
+    color: rgb(40, 38, 38);
+    -webkit-text-stroke: 1px white ;
 }
 
 .head .icon {

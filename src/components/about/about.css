@@ -1,6 +1,6 @@
 .aboutHome {
   height: auto;
-  background-color: #20120d;
+  background-color: #1f4761;
   border-top: 2px solid rgb(192, 191, 191);
   border-bottom: 2px solid rgb(192, 191, 191);
 }
@@ -30,7 +30,7 @@ section{
 }
 .aboutHome .item {
   background-color: #fff;
-  border: 3px solid rgb(232, 9, 9);
+  border: 3px solid rgb(17, 92, 9);
   margin-top: 30px;
   padding: 20px;
   transition: 0.5s;
@@ -50,15 +50,15 @@ section{
   color: rgb(35, 34, 34);
 }
 .aboutHome .item p {
-  color: #a93f31;
+  color: #2b630f;
 }
 
 .aboutHome .item:hover h2{
-  color: rgb(197, 197, 197);
+  color: rgb(7, 54, 7);
 }
 
 .aboutHome .item:hover {
-  background-color: #922822;
+  background-color: #409e06;
   color: rgb(255, 255, 255);
   cursor: pointer;
   box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
@@ -75,7 +75,7 @@ section{
   background-size: cover;
   background-position: center;
   height: 70vh;
-  color: rgb(238, 55, 23);
+  color: rgb(64, 153, 144);
 }
 .awrapper .box {
   padding: 70px 0;
@@ -102,4 +102,28 @@ section{
   .awrapper {
     height: 110vh;
   }
+
+  .aboutHome .item {
+    background-color: #fff;
+    border: 3px solid rgb(9, 107, 19);
+    margin-top: 30px;
+    padding: 2px;
+    transition: 0.5s;
+    border-radius: 3px 3px 10px 3px;
+  }
+
+
+.text {
+  display: flex;
+  flex-direction: column;
+  white-space: pre-wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
+
+.text p {
+  font-size: 17px;
+}
+
+}
+

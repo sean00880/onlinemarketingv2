@@ -23,13 +23,13 @@
   color: rgb(213, 212, 212);
 }
 .blog h1:hover {
-  color: #b43232;
+  color: #51913f;
   cursor: pointer;
 }
 .blog span {
   text-transform: uppercase;
   font-weight: 500;
-  color: #b43232;
+  color: #51913f;
 }
 .blog span label {
   margin-left: 10px;
@@ -37,13 +37,13 @@
   font-size: 14px;
 }
 .blog span:nth-last-child(1) label {
-  color: #b43232;
+  color: #51913f;
 }
 .blog p {
   color: rgb(205, 198, 198);
 }
 
 .blog {
-  background-color: rgba(255, 68, 0, 0.758);
+  background-color: #7dc1d0;
   padding-bottom:90px;
 }

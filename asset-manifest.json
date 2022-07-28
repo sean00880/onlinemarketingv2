@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/onlinemarketingv2/static/css/main.aef7fc8f.css",
+    "main.js": "/onlinemarketingv2/static/js/main.efe739f7.js",
+    "static/media/bg.jpg": "/onlinemarketingv2/static/media/bg.2808e90e5e0767c61f7b.jpg",
+    "static/media/2568d177.jpg": "/onlinemarketingv2/static/media/2568d177.8acd4e77608ec12d533b.jpg",
+    "static/media/awrapper.webp": "/onlinemarketingv2/static/media/awrapper.93ff90920ba16ed3766d.webp",
+    "index.html": "/onlinemarketingv2/index.html",
+    "main.aef7fc8f.css.map": "/onlinemarketingv2/static/css/main.aef7fc8f.css.map",
+    "main.efe739f7.js.map": "/onlinemarketingv2/static/js/main.efe739f7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aef7fc8f.css",
+    "static/js/main.efe739f7.js"
+  ]
+}
